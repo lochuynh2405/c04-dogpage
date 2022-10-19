@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    /* border: solid 2px gray; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+
+
+}
+
+#welcome {
+    border: solid 2px orange;
+    padding: 70px 100px;
+    text-align: center;
+}
+
+#welcome img {
+    width: 100%
+}
+
+#welcome p {
+    margin: 20px auto;
+    width: 70%;
+
+}
+
+#corgi {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#corgi>div>img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* width: 25%; */
+
+}
+
+#corgi>p {
+    width: 100px;
+}
+
+#corgi>div {
+    width: 25%;
+    padding: 2rem;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.bai2 {
+    position: relative;
+    height: 100vh;
+    background-image: url('../img/1.jpg');
+    color: white;
+
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    font-size: 20px;
+
+}
+
+nav {
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    top: 1.5rem;
+    right: 20px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+nav>ul>li>a:hover {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav>ul>li>a:focus {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#main-header {
+
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#main-header>a {
+    border: 1;
+    position: absolute;
+    bottom: 2rem;
+    transform: translate(-50%, 0);
+    color: white;
+
+}
+
+#label-list {
+    width: 100px;
+    height: 20px;
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+nav>ul {
+    display: flex;
+    margin: 0px;
+}
+
+nav>ul>li {
+    margin-right: 1rem;
+}
+
+.bai3 {
+
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-gap: 1rem;
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.bai3-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+.bai3-card>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.bai3>div {
+    box-shadow: 8px 6px 20px 0px #14daff38;
+}
+
+.tong {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.le {
+    width: 30%;
+}
+
+.bt3 {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+/* Bai 8 */
+
+.quaivat {
+    background-image: url('../img/bg.jpg');
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quaivat>.content {
+    width: 70%;
+}
+
+.shen {
+    display: flex;
+}
+
+.shen>div {
+    width: 25%;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 0;
+}
+h1 {
+    text-align: center;
+}
+
+.gold {
+    display: grid;
+    grid-template-columns: 23rem 23rem 23rem;
+    gap: 2rem;
+    justify-content: center;
+    /* width: 100%; */
+
+}
+
+.gold>div {
+    /* width: 33%; */
+    border: 1px solid #80808052;
+    box-shadow: 5px 5px 10px 0 #8080809c;
+}
+
+.gold>div>img {
+    width: 100%;
+}
+
+.gold>div>a {
+    padding: 2px;
+}
+
+.gold>div>div {
+    padding: 11px;
+}
+
+.gold>div>div>h3 {
+    margin-top: 0;
+}
+
+.card-three {
+    padding: 11px;
+}
+.h2tow {
+    text-align: center;
+}
+
+.h3tow {
+    color: yellowgreen;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {}
+
+.div3 {
+    display: flex;
+    align-items: center;
+}
+
+.div3>img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+
+}
+
+.div3>div {
+    margin-left: 33px;
+}
+
+.div3>div>p {
+    width: 70%;
+    margin-top: 0;
+}
+
+.divtext {
+    height: 120px;
+}
+
+.div3>div>h4 {
+    margin-bottom: 1rem;
+}
+
+button {
+    display: block;
+}
+
+.tandaica {
+    width: 20rem;
+    background-color: #80808047;
+    padding: 1rem;
+}
+
+.tandaica>input {
+    width: 100%;
+    padding: 0;
+}
+
+.tandaica>textarea {
+    width: 100%;
+    padding: 0;
+}
+
+button {
+background-color: yellow;
+width: 100%;
+}
+.bai9{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+.bai9>.div9{
+    margin: 2rem;
+    width: 15%;
+    
+}
+.email {
+    height: 35px;
+}
+.sumbit{
+    background-color: darkgoldenrod;
+    height: 35px;
+    width: 70px;
+}
+.div91{
+    display: flex;
+}
+.div10{
+    width: 100%;
+}
+.div10>.div101{
+    width: 100%;
+}
